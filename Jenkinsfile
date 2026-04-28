@@ -14,7 +14,7 @@ git branch: 'desarrollo', url:
 stage('Construir Imagen Docker (Build)') {
 steps {
 echo 'Construyendo el contenedor seguro...'
-sh 'docker build -t mi-app-segura:latest .'
+sh 'docker build -t app-produccion:latest .'
 }
 }
 }
